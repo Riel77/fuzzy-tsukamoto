@@ -20,8 +20,6 @@ function fuzzy() {
         document.getElementById("hasil").innerHTML = z.toFixed(2);
     }
     
-    
-    
 }
 
 function fuzzifikasi(pk, kt) {
