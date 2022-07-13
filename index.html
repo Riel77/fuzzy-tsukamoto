@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/shared.css" />
+    <title>Coba</title>
+    <script src="script/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="page-logo">
+        <a href="index.html">Ujian Akhir Semester Konsep Sistem Informasi</a>
+      </div>
+    </header>
+    <main>
+      <section id="hero1">
+        <div id="hero-content1">
+          <h1>Fuzzy Tsukamoto</h1>
+        </div>
+      </section>
+      <section id="highlights">
+        <h2>
+          Fuzzy tsukamoto - Perhitungan RPM mesin cuci berdasarkan banyak
+          pakaian dan tingkat kekotoran
+        </h2>
+        <table border="0">
+          <tr>
+            <th>Jumlah Pakaian &nbsp;&nbsp;&nbsp;</th>
+            <th>Tingkat kekotoran&nbsp;&nbsp;</th>
+            <th>&nbsp;&nbsp;&nbsp;</th>
+          </tr>
+
+          <tr>
+            <td><input id="pakaian" /></td>
+            <td><input id="kotor" /></td>
+            <td><button type="button" onclick="fuzzy()">Hitung</button></td>
+          </tr>
+        </table>
+        <p>Kecepatan Mesin Cuci adalah</p>
+        <p id="hasil">Hasil</p>
+      </section>
+    </main>
+  </body>
+</html>

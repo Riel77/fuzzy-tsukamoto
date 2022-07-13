@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    position: absolute;
+    background-color: rgb(53, 51, 51);
+    opacity: 0.8;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  #page-logo a {
+    padding: 10px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0);
+  }
+
+  #hero1 {
+    height: 300px;
+    background-image: url("/images/upb.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+  }
+  
+  #hero-content1 {
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+  }
+
+  #hero-content1 h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 0;
+  }
+
+  #highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227,255, 253), rgb(202, 243, 240));
+}
+
+#highlights a{
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 3px 8px;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#highlights h2 {
+    text-transform: initial;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
+
+#highlights p {
+  text-transform: initial;
+  text-align: left;
+  font-size: 22px;
+  color: rgb(59, 65, 64);
+  margin: 24px 0;
+}
+#highlights th {
+  font-size: 18px;
+}
+#highlights input {
+  font-size: 18px;
+  padding: 5px 6px;
+}
+
+#highlights button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+  border-radius: 6px;
+  background-color: gold;
+}
+
+#highlights button:hover {
+  background-color: rgb(253, 234, 123);
+}
